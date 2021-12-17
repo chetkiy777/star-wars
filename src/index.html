@@ -12,18 +12,20 @@
 <body>
 
     <div class="wrapper">
+        
         <div class="humans">
             <ul class="humans__list"></ul>
         </div>
 
         <div class="control">
-            <button data-forward>next</button>
-            <button data-back>prev</button>
+            <button class="control__btn back" data-back></button>
+            <button class="control__btn forward" data-forward></button> 
         </div>
 
-        <article class="info">
+        <div class="info is-hidden">
+            <button class="close-button" data-close></button>
             <ul class="info__list"></ul>
-        </article>
+        </div>
 
     </div>
 </body>

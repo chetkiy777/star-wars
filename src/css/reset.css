@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-ul {
-  list-style: none;
+ul,
+li {
   margin: 0;
   padding: 0;
 }
